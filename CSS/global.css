@@ -1,0 +1,240 @@
+/*
+    font-family: "Anton", cursive;
+    font-family: "Open Sans", sans-serif;
+
+    Text color : #333;
+    Dark blue : #345995;
+    Light blue : #4392F1;
+    Red : #D7263D;
+    Yellow : #EAC435;
+    Orange : #F46036;
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: #333;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+
+h1 , h2 {
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", cursive ;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 110px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.spacer.v20 {
+    height: 20px;
+}
+
+.spacer.v40 {
+    height: 40px;
+}
+
+.spacer.v80 {
+    height: 80px;
+}
+
+.clear {
+    clear: both;
+}
+
+#promo {
+    text-align: center;
+    color: white;
+    min-width: 1000px;
+    background-color: #F46036;
+}
+
+#promp >div {
+    padding: 15px;
+}
+
+#topMenu {
+    height: 60px;
+}
+
+#topLinks {
+    float: right;
+    padding-top: 20px;
+}
+
+#topLinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topLinks li {
+    float: left;
+}
+
+#topLinks li a {
+    color: #333;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+}
+
+#topLinks li a:hover {
+    color: #4392F1;
+    text-decoration: underline;
+}
+
+#topMenu .logo  {
+    float: left;
+    padding-top: 13px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+
+}
+
+#topMenu .logo:hover {
+    color: #4392F1;
+}
+
+.logo {
+    font-family: "Anton", cursive;
+}
+
+#banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    text-align: center;
+    padding-top: 300px;
+    color: #333;
+}
+
+#banner .logo {
+        margin-top: 20px;
+}
+#banner #action {
+    font-weight: bold;
+    width: 200px;
+    margin: 20px auto 0 auto;
+}
+
+    #banner #action a {
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        background-color:  #4392F1;
+    }
+
+    #banner #action a:hover {
+        background-color: #F46036;
+        padding: 20px 40px;
+    }
+
+    .feature .leftColumn {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+
+    .feature .rightColumn {
+        margin-left: 50%;
+        width: 50%;
+        text-align: center;
+    }
+
+    .feature .leftColumn .text,
+    .feature .rightColumn .text {
+        padding: 80px 20px 20px 20px;
+        min-height: 260px;
+    }
+
+    .feature .leftColumn .text a,
+    .feature .rightColumn .text a {
+        padding: 20px;
+        background-color: #4392F1;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+    }
+
+    .feature .leftColumn .text a:hover,
+    .feature .rightColumn .text a:hover {
+        background-color: #F46036;
+        text-decoration: none;
+        padding: 20px 40px;
+    }
+
+    .feature hr {
+        background-color: #333;
+        height: 2px;
+        border: 0;
+        width: 50px;
+    }
+
+    .featureImage img {
+        width: 500px;
+    }
+
+    .feature .leftColumn .text a.emailLink , 
+    .feature .rightColumn .text a.emailLink {
+    color: white;
+    text-decoration: none;
+    transition: none;
+    padding: 10px;
+    border: 0;
+    background-color: #4392F1;
+    }
+
+        .feature .leftColumn .text a.emailLink:hover {
+            background-color: #F46036;
+        }
+
+    .middleImage {
+        text-align: center;
+    }
+
+        .middleImage img {
+            max-width: 1000px;
+        }
+#scrollToTop {
+    display: ruby;
+    opacity: .5;
+    background-color: #F46036;
+    padding: 0 20px;
+    color: white;
+    width: 26px;
+    font-size: 40px;
+    line-height: 48px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+
+}
+    .scrollToTop:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+.contactMap {
+    width: 100%;
+    height: 400px;
+}
