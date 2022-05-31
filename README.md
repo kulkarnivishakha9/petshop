@@ -1,3 +1,3 @@
 # petshop
 
-Web Link: https://github.com/kulkarnivishakha9/japantourism.git 
+Web Link: https://kulkarnivishakha9.github.io/petshop/
